@@ -48,6 +48,7 @@ class Game:
         self.draw_background()
         self.player.draw(self.screen)
         self.enemies.draw(self.screen)
+       
         pygame.display.update()
         pygame.display.flip()
 
