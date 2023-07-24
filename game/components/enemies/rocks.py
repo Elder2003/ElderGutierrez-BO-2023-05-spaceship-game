@@ -6,7 +6,7 @@ from game.utils.constants import ROCK, SCREEN_HEIGHT, SCREEN_WIDTH
 
 class Rocks(Sprite):
     
-    Y_POS = 100
+    Y_POS = 0
     X_POS_RANGE = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
     SPEED_ON_Y = 10
     SPEED_ON_X = 6
